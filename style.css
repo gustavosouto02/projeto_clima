@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    height: 100vh; /*altura*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-maior{
+
+    background-color: #000;
+    opacity: 0.8; /*transparência*/
+    width: 95%; /*largura*/
+    max-width: 450px;
+    border-radius: 25px; 
+    padding: 20px;
+}
+
+
+.lupa {
+    height: 10px;
+    width: 10px;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    border-radius: 50%;
+    float: right;
+}
+button img.lupa{
+    height: 23px;
+    width: 23px;
+}
+
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    color: antiquewhite;
+    width: calc(100% - 100px);
+    font-size: 24px;
+}
+
+.caixa-media{
+    margin-top: 30px;
+    font-size: 28px;
+
+}
+
+.temp{
+    color: antiquewhite;
+    margin-top: 30px;
+}
+
+.cidade{
+    color: antiquewhite;
+
+}
+
+.umidade{
+    color: antiquewhite;
+    margin-top: 30px;
+}
