@@ -1,36 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
+body {
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
     background-size: cover;
-    height: 100vh; /*altura*/
+    height: 100vh; /* ALTURA */
+    width: 100vw; /* LARGURA */
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.caixa-maior{
-
-    background-color: #000;
-    opacity: 0.8; /*transparência*/
-    width: 95%; /*largura*/
-    max-width: 450px;
-    border-radius: 25px; 
+.caixa-maior {
+    background-color: #000000;
+    opacity: 0.8; /* TRANSPARÊNCIA */
+    width: 95%;  /* LARGURA */
+    max-width: 450px; /* LARGURA MÁXIMA */
+    border-radius: 25px; /* ARREDONDAR BORDA */
     padding: 20px;
 }
 
-
 .lupa {
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
 }
 
-button{
+button {
     border: none;
     padding: 10px;
     background-color: #7c7c7c2b;
@@ -38,40 +37,38 @@ button{
     border-radius: 50%;
     float: right;
 }
-button img.lupa{
-    height: 23px;
-    width: 23px;
-}
 
+button:hover {
+    background-color: #7c7c7c;
+}
 
 input {
     border: none;
     outline: none;
-    border-radius: 25px;
+    border-radius: 20px;
     padding: 10px;
     background-color: #7c7c7c2b;
-    color: antiquewhite;
+    color: #ffffff;
     width: calc(100% - 100px);
     font-size: 24px;
 }
 
-.caixa-media{
+.caixa-media {
     margin-top: 30px;
+}
+
+.cidade {
+    color: #ffffff;
     font-size: 28px;
-
 }
 
-.temp{
-    color: antiquewhite;
+.temp {
+    color: #ffffff;
     margin-top: 30px;
+    font-size: 30px;
 }
 
-.cidade{
-    color: antiquewhite;
-
-}
-
-.umidade{
-    color: antiquewhite;
+.umidade {
+    color: #ffffff;
     margin-top: 30px;
 }
