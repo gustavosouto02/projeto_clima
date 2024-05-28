@@ -16,8 +16,6 @@ Desenvolvimento Frontend: Praticamos nossas habilidades de desenvolvimento front
 Uso de Recursos Externos: Aprendemos como utilizar recursos externos, como imagens de ícones, para melhorar a aparência e a funcionalidade da aplicação.
 
 Como Utilizar:
-
-Abra o arquivo index.html em seu navegador.
-Insira o nome da cidade desejada no campo de texto.
-Clique no botão de busca para exibir a previsão do tempo para a cidade inserida.
+https://gustavosouto02.github.io/projeto_clima/
+digite o nome da cidade e aperte na lupa.
 Sinta-se à vontade para explorar e contribuir para este projeto. Se tiver alguma dúvida ou sugestão de melhoria, fique à vontade para entrar em contato. Obrigado por visitar!
