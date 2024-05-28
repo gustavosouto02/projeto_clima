@@ -17,5 +17,5 @@ Uso de Recursos Externos: Aprendemos como utilizar recursos externos, como image
 
 Como Utilizar:
 (https://gustavosouto02.github.io/projeto_clima/)<br>
-digite o nome da cidade e aperte na lupa.
+Digite o nome da cidade desejada e aperte na lupa.<br>
 Sinta-se à vontade para explorar e contribuir para este projeto. Se tiver alguma dúvida ou sugestão de melhoria, fique à vontade para entrar em contato. Obrigado por visitar!
